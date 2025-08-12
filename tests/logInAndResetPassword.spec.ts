@@ -18,4 +18,6 @@ test('has title', async ({ page }) => {
   //await page.waitForTimeout(2000);
 
   await expect(page.locator('#header-logo-image')).toBeVisible();
+
+  //test
 });
